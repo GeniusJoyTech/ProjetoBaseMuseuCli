@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+#include "bd.h"
+int main(void)
+{
+    int escolhaTema;
+
+    printf("Escolha um tema: ");
+    scanf("%i", &escolhaTema);
+
+    switch (escolhaTema)
+{
+   case 1:
+     printf("Tema: 1- 100 anos da semana de arte moderna\n");
+     printf("\n");
+     printf("Descricao: \n Foi um evento que ocorreu entre os dias 13 e 17 de fevereiro de 1922, no Teatro Municipal de Sao Paulo. O evento reuniu diferentes manifestacoes culturais como a pintura, musica, poesia, escultura e literatura.\nA Semana de Arte Moderna e considerada o marco oficial do Modernismo no Brasil. Ela marcou a busca de toda uma geracao de artistas por novas linguagens esteticas, rompendo com uma visao mais conservadora da arte. Entre os artistas participantes estavam;\nEntre outros artistas. E tambem abrange diferentes manifestacoes artisticas que surgiram na Europa e no Brasil entre o final do seculo XIX e meados do seculo XX. A arte moderna se caracteriza pelo rompimento com os padroes academicos e pela busca de novas formas de expressao, influenciadas pelos avancos tecnologicos, pelas transformacoes sociais e pelos conflitos mundiais da epoca. Alguns dos principais movimentos da arte moderna foram o impressionismo, o expressionismo, o cubismo, o futurismo, o surrealismo, o dadaismo, o abstracionismo, entre outros. Cada um desses movimentos tinha suas proprias caracteristicas, tecnicas e propostas esteticas, mas todos compartilhavam um espirito de vanguarda e de experimentacao.\n");
+   break;
+
+   case 2:
+     printf("Tema: 2- 150 anos de Santos Dumont:\n");
+     printf("\n");
+     printf("Descricao: \nAlberto Santos Dumont, conhecido como o “pai da aviacao”, completou 150 anos em 20 de julho de 2023. Sua mente inovadora foi alem do famoso aviao 14 Bis. Alem dessa iconica invencao, Santos Dumont tambem contribuiu com outras criacoes notaveis:\nSantos Dumont inovou ao projetar sua residencia em Petropolis, Rio de Janeiro, em 1918, com um sistema de chuveiro aquecido a alcool. O objeto funcionava com um balde dividido ao meio e tinha entrada para agua quente e fria, algo inedito no Brasil ate entao\nEle tambem teve a ideia de construir o primeiro hangar do mundo. Projetou estruturas para guardar em seguranca seus dirigiveis, com portas sobre rolamentos.\n Aqui estao alguns destaques da vida e das realizacoes de Santos Dumont:\n*	Primeiro Voo Motorizado: Santos Dumont projetou, construiu e voou o primeiro aviao a motor. Seu famoso aviao, o 14 Bis, realizou o primeiro voo publico oficial em 23 de outubro de 1906, em Paris, Franca. Esse feito pioneiro marcou o inicio da era da aviacao motorizada.\n*	Dirigiveis e Baloes: Alem do 14 Bis, Santos Dumont tambem projetou e construiu dirigiveis e baloes. Ele demonstrou a dirigibilidade dos baloes e conquistou o “Premio Deutsch” em 1901, concedido pelo Aeroclube da Franca.\n*	Inovacoes e Patentes: Ele registrou varias patentes relacionadas à aviacao, incluindo sistemas de controle de voo, estruturas de aeronaves e dispositivos de seguranca.\n*	Legado Duradouro: O Dia do Aviador no Brasil e celebrado em 23 de outubro, em homenagem ao primeiro voo do 14 Bis. Santos Dumont e lembrado como o pai da aviacao brasileira e uma figura iconica no desenvolvimento da aviacao em nivel mundial.\nSantos Dumont enfrentou desafios pessoais e profissionais, mas sua paixao pela aviacao e suas inovacoes continuam a inspirar geracoes de entusiastas e profissionais da aviacao em todo o mundo.\n");
+   break;
+
+   case 3:
+     printf("Tema: 3- Jogos olimpicos de Paris 2024:\n");
+     printf("\n");
+     printf("Descricao: \n Os Jogos Olimpicos de Paris 2024 serao a 33a edicao do maior evento esportivo do mundo, que acontecera na capital francesa entre os dias 26 de julho e 11 de agosto de 2024. Sera a terceira vez que Paris sediara os Jogos, depois de 1900 e 1924, marcando o centenario da ultima edicao na cidade. Os Jogos Paralimpicos ocorrerao logo depois, entre 28 de agosto e 8 de setembro.\nSerao 32 esportes disputados, em 48 modalidades. Esta edicao dos Jogos Olimpicos contara com diversas novidades, como a estreia do breaking e algumas mudancas em outros esportes, como escalada esportiva, o slalom extremo, canoagem e vela. Ja beisebol, softbol e Karate foram retirados da disputa dos Jogos de Paris.\nOs Jogos terao cerca de 10.500 atletas de mais de 200 paises, que competirao em 35 locais de provas, sendo a maioria na regiao metropolitana de Paris. Alguns eventos acontecerao em lugares emblematicos da cidade, como a Torre Eiffel, o Grand Palais e o rio Sena. Outros locais serao em outras cidades da Franca, como Marselha, Lyon e Bordeaux. Pela primeira vez, os Jogos tambem serao realizados no territorio frances do Taiti, onde a competicao de surfe sera realizada na onda de Teahupoo.\nOs Jogos de Paris 2024 terao uma visao de sustentabilidade e inovacao, com 95% das instalacoes ja existentes ou temporarias, e um legado claro para o desenvolvimento da cidade e do esporte. A cerimonia de abertura sera inedita, sendo realizada no rio Sena, com a participacao do publico. O revezamento da tocha tambem sera diferente, passando por todas as regioes da Franca e envolvendo milhoes de pessoas.\n");
+   break;
+
+   case 4:
+     printf("Tema: 4- Inteligencia Artificial\n");
+     printf("\n");
+     printf("Descricao: \n A inteligencia artificial e um estudo que procura replicar os comportamentos humanos atraves de programas e sites para tomar uma decisao logica ou executar determinada tarefa seja ela simples ou mais complexa, a sigla IA vem do ingles (artificial intelligence).\nDiante disso, podemos observar que a inteligencia artificial ja se faz presente em algumas areas da internet, como os algoritmos de sites, assistentes de voz (Siri, Google ,Bing e etc.) carros autonomos, ferramentas de pesquisa e as proprias redes sociais, apesar dos diversos avancos da tecnologia que visam trazer mais praticidade, muitas pessoas ainda tem certo receio para o uso em excesso da redes sociais, aplicativos de delivery, consultas pela internet dessa forma surgem os debates em nossa sociedade sobre o papel dessas IA's e seus limites.\nComo mencionado pelo Diretor tecnico da SpaceX Elon Musk “A inteligencia artificial e provavelmente a coisa mais importante que a humanidade ja criou. Pode ser tambem a ultima, a nao ser que aprendamos a lidar com os riscos”.\n- Diversos usos da IA no cotidiano - \nSeu papel e versatil, influenciando setores que vao desde a medicina ate a industria, e sua presenca e cada vez mais onipresente.\nNo âmbito da saude, a IA desempenha um papel crucial na analise de dados medicos, diagnosticos e ate mesmo na descoberta de novos tratamentos. Algoritmos avancados podem processar grandes volumes de informacoes em tempo recorde, auxiliando profissionais de saude a tomarem decisoes mais informadas e precisas. Na industria, a automacao impulsionada pela IA esta redefinindo os paradigmas de producao. Robos e sistemas inteligentes otimizam a eficiencia, reduzem os custos e aumentam a qualidade dos produtos. No entanto, essa automacao tambem suscita questoes sobre o impacto nas oportunidades de emprego tradicionais.\nA IA tambem desempenha um papel fundamental no desenvolvimento de cidades inteligentes. Sistemas de gerenciamento de trafego, monitoramento de seguranca e ate mesmo a otimizacao de recursos energeticos sao areas em que a inteligencia artificial esta sendo aplicada para criar ambientes urbanos mais eficientes e sustentaveis.\nNo entanto, com todos esses avancos, surgem preocupacoes eticas e sociais. Questoes sobre privacidade, vies algoritmico e o temor da substituicao de empregos por automacao sao desafios que precisam ser abordados de maneira cuidadosa. e imperativo que a sociedade trabalhe em conjunto para estabelecer diretrizes eticas e regulamentacoes que garantam o uso responsavel e equitativo da IA.\nSob essa otica como dito pelo fisico britânico Stephen Hawking “Penso que a inteligencia artificial pode ser tao boa quanto a mente humana, mas nunca sera melhor. Porque a inteligencia humana e um produto da evolucao”. Diante disso o papel da IA na sociedade depende de como escolhemos dirigir o seu desenvolvimento e implementacao. Atraves de uma abordagem etica e reflexiva, podemos aproveitar o potencial transformador da IA para melhorar a qualidade de vida, impulsionar a inovacao e construir um futuro mais equitativo e sustentavel.\n");
+   break;
+
+   default:
+     printf("Tema inexistente, encerrando terminal.\n");
+}
+    printf("\n\n\n\n");
+     return 0;
+}
